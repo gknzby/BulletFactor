@@ -1,0 +1,56 @@
+{
+    "name": "PointerInputActions",
+    "maps": [
+        {
+            "name": "SwerveRunner",
+            "id": "eadce5f0-8f6c-4ffe-84af-ca6cccd5183b",
+            "actions": [
+                {
+                    "name": "HorizontalMove",
+                    "type": "PassThrough",
+                    "id": "a844277e-2a70-4111-b30c-5a23f9650643",
+                    "expectedControlType": "Axis",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                }
+            ],
+            "bindings": [
+                {
+                    "name": "One Modifier",
+                    "id": "2bfd02c8-d23f-4d10-8f59-ba17c38f13bc",
+                    "path": "OneModifier",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "HorizontalMove",
+                    "isComposite": true,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "modifier",
+                    "id": "2fc7dcb8-1ccf-45dc-b726-b9c320a1bbbc",
+                    "path": "<Pointer>/press",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "HorizontalMove",
+                    "isComposite": false,
+                    "isPartOfComposite": true
+                },
+                {
+                    "name": "binding",
+                    "id": "381d1e5a-413d-4aef-85a8-7dc2a1f44ec4",
+                    "path": "<Pointer>/delta/x",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "HorizontalMove",
+                    "isComposite": false,
+                    "isPartOfComposite": true
+                }
+            ]
+        }
+    ],
+    "controlSchemes": []
+}
